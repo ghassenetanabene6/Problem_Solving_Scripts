@@ -26,6 +26,10 @@ The complexity of the solution should be less than O(n2).
 #### Read more
 https://leetcode.com/problems/two-sum
 <hr>
+# Solution 
+
+## Important
+In this problem, only one valid answer exists for each input target. However, my solutions give as output all the possible valid answer for each input target. As a result, this will affect the runtime and the memory usage.
 
 ## My Solution 1 : 
 
