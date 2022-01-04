@@ -11,7 +11,7 @@ class Solution(object):
         elements = []
 
         for i,v in enumerate(self.nums):
-            if v in self.nums and self.target-v in self.nums:
+            if self.target-v in self.nums:
                 j = self.nums.index(self.target-v)
                 if i != j :
                     if j in visited_indexes and j<len(self.nums):
@@ -33,4 +33,5 @@ def main():
     target = 4
     print(test_case.twoSum(L, target))
 
-main()
+if __name__ == '__main__':
+    main()
