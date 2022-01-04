@@ -7,11 +7,11 @@ You may assume that each input would have exactly one solution, and you may not 
 You can return the answer in any order.
 
 ### Example 
-'''shell
+```shell
 Input: nums = [2,7,11,15], target = 9
 Output: [0,1]
 Output: Because nums[0] + nums[1] == 9, we return [0, 1].
-'''
+```
 
 ### Constraints 
 
@@ -28,18 +28,15 @@ https://leetcode.com/problems/two-sum
 <hr>
 # My Solution 1 : 
 
-File name : '''shell
-Leetcode_Problem1_Two_Sum_Solution1.py
-'''
+File name : ```Leetcode_Problem1_Two_Sum_Solution1.py```
 ### Results 
 <img src='Results1.png'>
 
 
 # My Solution 2 : 
 
-File name : '''shell
-Leetcode_Problem1_Two_Sum_Solution2.py
-'''
+File name : ```Leetcode_Problem1_Two_Sum_Solution2.py```
+
 ### Results 
 <img src='Results2.png'>
 
