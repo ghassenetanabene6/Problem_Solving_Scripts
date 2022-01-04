@@ -22,6 +22,9 @@ Output: Because nums[0] + nums[1] == 9, we return [0, 1].
 
 ### Complexity 
 The complexity of the solution should be less than O(n2).
+
+### Read more
+https://leetcode.com/problems/two-sum
 <hr>
 # My Solution 1 : 
 
