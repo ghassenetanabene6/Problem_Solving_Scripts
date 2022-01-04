@@ -42,4 +42,5 @@ def main():
     target = 4
     print(test_case.twoSum(L, target))
 
-main()
+if __name__ == '__main__':
+    main()
