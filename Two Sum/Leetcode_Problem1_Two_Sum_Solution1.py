@@ -21,7 +21,7 @@ class Solution(object):
                
         return 
  
-class Solution_for_many_valid_answers(object):
+class SolutionForManyValidAnswers(object):
     def twoSum(self, nums, target):
         """
         :type nums: List[int]
