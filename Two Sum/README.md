@@ -30,13 +30,21 @@ https://leetcode.com/problems/two-sum
 # Solution 
 
 ## Important
-In this problem, only one valid answer exists for each input target. However, my solutions give as output all the possible valid answer for each input target. As a result, this will affect the runtime and the memory usage.
+In this problem, we assume that only one valid answer exists for each input target in the test. It means that the solution will return the first answer found. However, my solutions give in output all the possible valid answer for each input target. As a result, this will affect the runtime and the memory usage.
 
 ## My Solution 1 : 
 
-File name : ```Leetcode_Problem1_Two_Sum_Solution1.py```
+File name : ```Leetcode_Problem1_Two_Sum_Solution1.py```. 
+
+####  1.1 Solution for many valid answers
+**I assumed that we have many valid answers for each input target. ** ```Leetcode_Problem1_Two_Sum_Solution1.py```
 #### Results 
 <img src='Results1.png'>
+
+####  1.2 Solution for only one valid answers
+**I assumed that we have many valid answers for each input target. ** 
+#### Results 
+<img src='Results1.1.png'>
 
 
 ## My Solution 2 : 
