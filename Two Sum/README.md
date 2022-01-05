@@ -50,6 +50,7 @@ I assumed that we have only one valid answer for each input target as given in t
 ## My Solution 2 : 
 
 File name : ```Leetcode_Problem1_Two_Sum_Solution2.py```
+I assumed that we have many valid answers for each input target.
 
 #### Results 
 <img src='Results2.png'>
