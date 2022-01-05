@@ -24,7 +24,7 @@ class Solution(object):
                 j = self.nums.index(self.target-v)
                 
                 if i != j :
-                    if j in visited_indexes and j<len(self.nums):
+                    if j in visited_indexes and j<len(self.nums)-1:
                         try:
                             k = self.nums.index(self.target-v,j+1)
                             j = k
