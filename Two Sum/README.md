@@ -41,7 +41,7 @@ I assumed that we have many valid answers for each input target.
 #### Results 
 <img src='Results1.png'>
 
-####  1.2 Solution for only one valid answers
+####  1.2 Solution for only one valid answer
 I assumed that we have only one valid answer for each input target as given in the problem constraints. 
 #### Results 
 <img src='Results1.1.png'>
