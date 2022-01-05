@@ -5,18 +5,10 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        visited_indexes = []
-
         for i,v in enumerate(nums):
             if target-v in nums:
                 j = nums.index(target-v)
                 if i != j :
-                    if j in visited_indexes and j<len(nums)-1:
-                        try:
-                            k = nums.index(target-v,j+1)
-                            j = k
-                        except:
-                            pass     
                     return [min(i,j),max(i,j)]
                
         return 
