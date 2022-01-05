@@ -37,7 +37,7 @@ In this problem, we assume that only one valid answer exists for each input targ
 File name : ```Leetcode_Problem1_Two_Sum_Solution1.py```. 
 
 ####  1.1 Solution for many valid answers
-**I assumed that we have many valid answers for each input target. ** ```Leetcode_Problem1_Two_Sum_Solution1.py```
+**I assumed that we have many valid answers for each input target.** ```Leetcode_Problem1_Two_Sum_Solution1.py```
 #### Results 
 <img src='Results1.png'>
 
