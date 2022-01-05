@@ -5,18 +5,39 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        self.nums = nums
-        self.target = target
+        visited_indexes = []
+
+        for i,v in enumerate(nums):
+            if target-v in nums:
+                j = nums.index(target-v)
+                if i != j :
+                    if j in visited_indexes and j<len(nums)-1:
+                        try:
+                            k = nums.index(target-v,j+1)
+                            j = k
+                        except:
+                            pass     
+                    return [min(i,j),max(i,j)]
+               
+        return 
+ 
+class Solution_for_many_valid_answers(object):
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
         visited_indexes = []
         elements = []
 
-        for i,v in enumerate(self.nums):
-            if self.target-v in self.nums:
-                j = self.nums.index(self.target-v)
+        for i,v in enumerate(nums):
+            if target-v in nums:
+                j = nums.index(target-v)
                 if i != j :
-                    if j in visited_indexes and j<len(self.nums)-1:
+                    if j in visited_indexes and j<len(nums)-1:
                         try:
-                            k = self.nums.index(self.target-v,j+1)
+                            k = nums.index(target-v,j+1)
                             j = k
                         except:
                             pass
