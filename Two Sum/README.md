@@ -6,13 +6,23 @@ You may assume that each input would have exactly one solution, and you may not 
 
 You can return the answer in any order.
 
-#### Example 
+#### Example 1
 ```shell
 Input: nums = [2,7,11,15], target = 9
 Output: [0,1]
 Output: Because nums[0] + nums[1] == 9, we return [0, 1].
 ```
 
+#### Example 2
+```shell
+Input: nums = [3,2,4], target = 6
+Output: [1,2]
+```
+#### Example 3
+```shell
+Input: nums = [3,3], target = 6
+Output: [0,1]
+```
 #### Constraints 
 
 - 2 <= nums.length <= 104
@@ -32,7 +42,7 @@ In this problem, we assume that only one valid answer exists for each input targ
 
 ## My Solution 1 : 
 
-File name : ```Leetcode_Problem1_Two_Sum_Solution1.py```. 
+File name : ```Two_Sum_Solution1.py```. 
 
 ####  1.1 Solution for many valid answers
 I assumed that we have many valid answers for each input target.
@@ -47,7 +57,7 @@ I assumed that we have only one valid answer for each input target as given in t
 
 ## My Solution 2 : 
 
-File name : ```Leetcode_Problem1_Two_Sum_Solution2.py```
+File name : ```Two_Sum_Solution2.py```
 I assumed that we have many valid answers for each input target.
 
 #### Results 
