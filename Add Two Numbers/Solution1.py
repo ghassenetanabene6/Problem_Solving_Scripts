@@ -47,11 +47,13 @@ def addTwoNumbers(l1, l2):
         
 def main():
     
+    #TestCase
     List1 = ListNode(2,ListNode(4,ListNode(3))) # (2 -> 4 -> 3)
     List2 = ListNode(5,ListNode(6,ListNode(4))) # (5 -> 6 -> 4)
     L1, L2 = List1, List2
     res = addTwoNumbers(L1, L2)
     nodes = []
+    
     while res:
         nodes.append(str(res.val))
         res = res.next
