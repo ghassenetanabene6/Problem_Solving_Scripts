@@ -5,14 +5,15 @@ You are given two non-empty linked lists representing two non-negative integers.
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 
 #### Example 
-<img src=''>
+<img src='addtwonumber1.jpg'>
+
 ```shell
 Input: l1 = [2,4,3], l2 = [5,6,4]
 Output: [7,0,8]
 Explanation: 342 + 465 = 807.
 ```
 
-<img src=''>
+<img src='example.jpg'>
 Figure : Visualization of the addition of two numbers: 342 + 465 = 807342+465=807.
 Each node contains a single digit and the digits are stored in reverse order.
 
