@@ -1,6 +1,8 @@
 '''
-Runtime: 111 ms
-Memory Usage: 13.5 MB
+1568 / 1568 test cases passed.
+Status: Accepted
+Runtime: 89 ms
+Memory Usage: 13.4 MB
 '''
 
 # Definition for singly-linked list.
