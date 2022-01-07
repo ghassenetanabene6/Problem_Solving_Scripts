@@ -13,7 +13,7 @@ Output: [7,0,8]
 Explanation: 342 + 465 = 807.
 ```
 
-<img src='example.jpg'>
+<img src='example.png'>
 Figure : Visualization of the addition of two numbers: 342 + 465 = 807342+465=807.
 Each node contains a single digit and the digits are stored in reverse order.
 
