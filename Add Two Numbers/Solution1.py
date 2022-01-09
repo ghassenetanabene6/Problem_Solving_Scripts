@@ -35,41 +35,6 @@ def addTwoNumbers(l1, l2):
 
     return result
 
-'''
-def addTwoNumbers(l1, l2):
-    """
-    :type l1: ListNode
-    :type l2: ListNode
-    :rtype: ListNode
-    """
-    number1 = str(l1.val)
-    number2 = str(l2.val)
-    next1 = True
-    next2 = True
-
-    while next1 or next2:
-        if next1:
-            try:
-                l1 = l1.next
-                number1 += str(l1.val)                
-            except: 
-                next1 = False
-        if next2:
-            try:
-                l2 = l2.next
-                number2 += str(l2.val)                
-            except: 
-                next2 = False
-        
-    res = str(int(number1[::-1]) + int(number2[::-1]))
-    result = ListNode(int(res[0]))
-    
-    if len(res)>1:
-        for i in res[1::]:
-            result = ListNode(int(i), result)
-
-    return(result)
-'''
 def main():
     
     List1 = ListNode(2,ListNode(4,ListNode(3))) # (2 -> 4 -> 3)
