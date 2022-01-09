@@ -1,3 +1,7 @@
+'''
+Runtime: 52 ms, faster than 94.83% of Python online submissions for Add Two Numbers.
+Memory Usage: 13.4 MB, less than 91.96% of Python online submissions for Add Two Numbers.
+'''
 class Solution(object):
    
     def addTwoNumbers(self, l1, l2):
