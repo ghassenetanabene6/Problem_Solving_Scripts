@@ -1,4 +1,6 @@
 '''
+1568 / 1568 test cases passed.
+Status: Accepted
 Runtime: 52 ms, faster than 94.83% of Python online submissions for Add Two Numbers.
 Memory Usage: 13.4 MB, less than 91.96% of Python online submissions for Add Two Numbers.
 '''
@@ -26,6 +28,7 @@ class Solution(object):
             current_node.next = ListNode(val = (carry_over + l1.val) % 10)
             carry_over = (carry_over + l1.val) // 10
             current_node = current_node.next
+            
         while l2.next:
             l2 = l2.next
             current_node.next = ListNode(val = (carry_over + l2.val) % 10)
@@ -36,4 +39,3 @@ class Solution(object):
             current_node.next = ListNode(val = 1)
         
         return result
-            
